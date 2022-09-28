@@ -1,5 +1,5 @@
 {
-  "name": "react-native-statusbar-height",
+  "name": "react-native-safearea-height",
   "version": "1.0.0",
   "description": "Get status bar height for React Native App",
   "main": "index.js",

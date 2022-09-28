@@ -1,4 +1,4 @@
-# react-native-status-bar-height
+# react-native-safearea-height
 
 > Small library that helps you to get status bar height
 >
@@ -9,15 +9,15 @@ P.S :iPhone:X / iPhone 12 / iPhone 13mini / iPhone 14Pro supported :heart:
 ## Install
 
 ```bash
-$ npm install --save react-native-status-bar-height
+$ npm install --save react-native-safearea-height
 # OR
-$ yarn add react-native-status-bar-height
+$ yarn add react-native-safearea-height
 ```
 
 ## Usage getStatusBarHeight(skipAndroid: boolean = false)
 
 ```js
-import { getStatusBarHeight } from "react-native-status-bar-height";
+import { getStatusBarHeight } from "react-native-safearea-height";
 
 // 59 - iPhone 14 Pro / 14Pro Max
 // 50 - iPhone 13 mini

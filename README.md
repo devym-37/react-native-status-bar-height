@@ -1,10 +1,10 @@
-# ovr Fork Version
+## ovr Fork Version
+
+> Original https://github.com/ovr/react-native-status-bar-height
 
 # react-native-safearea-height
 
 > Small library that helps you to get status bar height
->
-> Original https://github.com/ovr/react-native-status-bar-height
 
 P.S :iPhone:X / iPhone 12 / iPhone 13mini / iPhone 14Pro supported :heart:
 

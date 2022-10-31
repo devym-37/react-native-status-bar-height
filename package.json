@@ -1,43 +1,43 @@
 {
-  "name": "react-native-safearea-height",
-  "version": "1.0.3",
-  "description": "Get status bar height for React Native App",
-  "main": "index.js",
-  "typings": "index.d.ts",
-  "scripts": {
-    "test": "npx jest --coverage",
-    "tsc": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/devym-37/react-native-status-bar-height.git"
-  },
-  "keywords": [
-    "react-native"
-  ],
-  "author": "devym-37 / Original Author : Dmitry Patsura",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/devym-37/react-native-status-bar-height/issues"
-  },
-  "homepage": "https://github.com/devym-37/react-native-status-bar-height#readme",
-  "devDependencies": {
-    "@babel/preset-typescript": "^7.12.7",
-    "@types/jest": "^26.0.19",
-    "flow-bin": "^0.104",
-    "jest": "^26.6.3",
-    "react-native": "^0.62.2",
-    "typescript": "^3.3.3333"
-  },
-  "jest": {
-    "preset": "react-native",
-    "collectCoverage": true,
-    "coverageReporters": [
-      "html",
-      "json-summary"
-    ]
-  },
-  "dependencies": {
-    "react": "^16.9.0"
-  }
+    "name": "react-native-safearea-height",
+    "version": "1.0.3",
+    "description": "Get status bar height for React Native App",
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "scripts": {
+        "test": "npx jest --coverage",
+        "tsc": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/devym-37/react-native-safearea-height.git"
+    },
+    "keywords": [
+        "react-native"
+    ],
+    "author": "devym-37 / Original Author : Dmitry Patsura",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/devym-37/react-native-safearea-height/issues"
+    },
+    "homepage": "https://github.com/devym-37/react-native-safearea-height#readme",
+    "devDependencies": {
+        "@babel/preset-typescript": "^7.12.7",
+        "@types/jest": "^26.0.19",
+        "flow-bin": "^0.104",
+        "jest": "^26.6.3",
+        "react-native": "^0.62.2",
+        "typescript": "^3.3.3333"
+    },
+    "jest": {
+        "preset": "react-native",
+        "collectCoverage": true,
+        "coverageReporters": [
+            "html",
+            "json-summary"
+        ]
+    },
+    "dependencies": {
+        "react": "^16.9.0"
+    }
 }

@@ -51,10 +51,16 @@ if (Platform.OS === "ios" && !Platform.isPad && !Platform.isTVOS) {
         isIPhoneWithMonobrow_v = true;
         isIPhone12Max_v = true;
         statusBarHeight = STATUSBAR_IP12MAX_HEIGHT;
+    } else if (W_WIDTH === IP13MINI_WIDTH && W_HEIGHT === IP13MINI_HEIGHT) {
+        isIPhoneWithMonobrow_v = true;
+        isIPhone13Mini_v = true;
+        statusBarHeight = STATUSBAR_IP13MINI_HEIGHT;
     } else if (W_WIDTH === IP14PROMAX_WIDTH && W_HEIGHT === IP14PROMAX_HEIGHT) {
+        isIPhoneWithMonobrow_v = true;
         isIPhoneWithDynamicIsland_v = true;
         statusBarHeight = STATUSBAR_IP14PRO_HEIGHT;
     } else if (W_WIDTH === IP14PRO_WIDTH && W_HEIGHT === IP14PRO_HEIGHT) {
+        isIPhoneWithMonobrow_v = true;
         isIPhoneWithDynamicIsland_v = true;
         statusBarHeight = STATUSBAR_IP14PRO_HEIGHT;
     }
@@ -65,6 +71,7 @@ export const isIPhoneXMax = () => isIPhoneXMax_v;
 export const isIPhone12 = () => isIPhone12_v;
 export const isIPhone12Max = () => isIPhone12Max_v;
 export const isIPhoneWithMonobrow = () => isIPhoneWithMonobrow_v;
+export const isIPhone13Mini = () => isIPhone13Mini_v;
 export const isIPhoneWithDynamicIsland = () => isIPhoneWithDynamicIsland_v;
 
 const getExpoRoot = () => global.Expo || global.__expo || global.__exponent;

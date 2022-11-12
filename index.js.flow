@@ -1,4 +1,4 @@
-declare module "react-native-status-bar-height" {
+declare module "react-native-safearea-height" {
     declare function getStatusBarHeight(skipAndroid?: boolean): number;
     declare function isIPhoneX(): boolean;
     declare function isIPhoneXMax(): boolean;
@@ -6,6 +6,6 @@ declare module "react-native-status-bar-height" {
     declare function isIPhone12Max(): boolean;
     declare function isIPhoneWithMonobrow(): boolean;
     declare function isIPhone13Mini(): boolean;
-    declare function isIPhoneDynamicIsland(): boolean;
+    declare function isIPhoneWithDynamicIsland(): boolean;
     declare function isExpo(): boolean;
 }

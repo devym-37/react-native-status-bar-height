@@ -5,7 +5,6 @@ declare module "react-native-safearea-height" {
     export function isIPhone12(): boolean;
     export function isIPhone12Max(): boolean;
     export function isIPhoneWithMonobrow(): boolean;
-    export function isIPhone13Mini(): boolean;
     export function isIPhoneWithDynamicIsland(): boolean;
     export function isExpo(): boolean;
 }

@@ -21,17 +21,20 @@ $ yarn add react-native-safearea-height
 ```js
 import { getStatusBarHeight } from "react-native-safearea-height";
 
-// 59 - iPhone 14 Pro / 14Pro Max
+// 59 - iPhone 14 Pro / 14Pro Max / 15 series
 // 47 - iPhone 12 / 12Pro / 13 / 13Pro / 13Pro Max / 14 / 14 Plus
 // 44 - on iPhoneX
 // 20 - on iOS device
 // X - on Android platfrom (runtime value)
 // 0 - on all other platforms (default)
+
 console.log(getStatusBarHeight());
 
 // will be 0 on Android, because You pass true to skipAndroid
 console.log(getStatusBarHeight(true));
 ```
+
+[reference safeArea size url](https://useyourloaf.com/blog/iphone-15-screen-sizes/)
 
 ## License
 

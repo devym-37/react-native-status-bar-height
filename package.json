@@ -37,7 +37,7 @@
             "json-summary"
         ]
     },
-    "dependencies": {
-        "react": "^16.9.0"
+    "peerDependencies": {
+        "react": "*"
     }
 }

@@ -6,7 +6,7 @@
 
 > Small library that helps you to get status bar height
 
-P.S :iPhone:X / iPhone 12 / iPhone 14Pro supported :heart:
+P.S :iPhone:X / iPhone 12 / iPhone 14Pro / iPhone 16Pro / iPhone 16Pro Max supported :heart:
 
 ## Install
 
@@ -21,6 +21,7 @@ $ yarn add react-native-safearea-height
 ```js
 import { getStatusBarHeight } from "react-native-safearea-height";
 
+// 62 - iPhone 16 Pro / 16Pro Max
 // 59 - iPhone 14 Pro / 14Pro Max / 15 series
 // 47 - iPhone 12 / 12Pro / 13 / 13Pro / 13Pro Max / 14 / 14 Plus
 // 44 - on iPhoneX
@@ -34,7 +35,7 @@ console.log(getStatusBarHeight());
 console.log(getStatusBarHeight(true));
 ```
 
-[reference safeArea size url](https://useyourloaf.com/blog/iphone-15-screen-sizes/)
+[reference safeArea size url](https://useyourloaf.com/)
 
 ## License
 
